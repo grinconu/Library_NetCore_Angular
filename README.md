@@ -18,9 +18,9 @@ Se iniciara un servidor local, el cual esta en la siguiente URL https://localhos
 
 Abrir en el editor de su preferencia.
 
-Arbir una terminal y ubicarse en la carpeta Frontend del proyecto, ejecutar el comando 'npm install' para instalar las dependencias del proyecto.
+Abrir una terminal y ubicarse en la carpeta Frontend del proyecto, ejecutar el comando 'npm install' para instalar las dependencias del proyecto.
 
-Ejecutar el comando 'ng build' para compilar la solucion y verificar que todo esta correctamente instlado.
+Ejecutar el comando 'ng build' para compilar la solucion y verificar que todo esta correctamente instalado y configurado.
 
 Iniciar el servicidor con el comando 'ng serve'.
 
