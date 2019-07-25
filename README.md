@@ -7,6 +7,32 @@ Para el funcionamiento correcto de la solucion seguir los siguientes pasos, en e
 
 Se debe abrir con Visual Studio 2017 o la version mas reciente.
 
+Para inicar la solucion se debe tener un motor de base de datos para almacenar la informacion.
+
+En la clase Library.Backend.Repository.LibraryContext  comentar las siguientes lineas:
+
+//public LibraryContext(DbContextOptions options): base(options)
+        //{
+        //}
+
+Ir por consola a la carpeta donde esta el proyecto Library.Backend.Repository.
+
+Al abrir la solucion.
+
+En los appsettings.json cambiar la cadena de conexion por la del servidor a utilizar, el nombre de la llave es LibraryDB.
+
+Ejecutar los siguientes los siguientes comandos:
+
+dotnet restore
+
+dotnet ef
+
+dotnet ef migrations add initial Library.Backend.Repository.LibraryContext
+
+dotnet ef database update
+
+Ya con estos comandos se encuentra actualizado la base de datos con el modelo.
+
 Compilar la solucion.
 
 Iniciar la solucion desde el proyecto de Library.Backend.API.
