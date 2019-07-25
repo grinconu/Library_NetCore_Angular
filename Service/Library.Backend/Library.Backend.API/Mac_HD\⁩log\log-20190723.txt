@@ -1,0 +1,63 @@
+2019-07-23 21:39:43.735 -05:00 [Information] Request starting HTTP/1.1 GET https://localhost:5002/  
+2019-07-23 21:39:43.998 -05:00 [Information] Request finished in 272.3804ms 301 
+2019-07-23 21:39:44.007 -05:00 [Information] Request starting HTTP/1.1 GET https://localhost:5002/index.html  
+2019-07-23 21:39:44.220 -05:00 [Information] Request finished in 212.509ms 200 text/html
+2019-07-23 21:39:44.256 -05:00 [Information] Request starting HTTP/1.1 GET https://localhost:5002/swagger-ui.css  
+2019-07-23 21:39:44.450 -05:00 [Information] Request starting HTTP/1.1 GET https://localhost:5002/swagger-ui-bundle.js  
+2019-07-23 21:39:44.508 -05:00 [Information] Request starting HTTP/1.1 GET https://localhost:5002/swagger-ui-standalone-preset.js  
+2019-07-23 21:39:44.539 -05:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2019-07-23 21:39:44.548 -05:00 [Information] Request finished in 290.9865ms 200 text/css
+2019-07-23 21:39:44.566 -05:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2019-07-23 21:39:44.570 -05:00 [Information] Request finished in 62.5151ms 200 application/javascript
+2019-07-23 21:39:44.608 -05:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2019-07-23 21:39:44.615 -05:00 [Information] Request finished in 187.2744ms 200 application/javascript
+2019-07-23 21:39:44.947 -05:00 [Information] Request starting HTTP/1.1 GET https://localhost:5002/swagger/v1/swagger.json  
+2019-07-23 21:39:45.131 -05:00 [Information] Request starting HTTP/1.1 GET https://localhost:5002/favicon-32x32.png  
+2019-07-23 21:39:45.136 -05:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2019-07-23 21:39:45.146 -05:00 [Information] Request finished in 15.9405ms 200 image/png
+2019-07-23 21:39:45.233 -05:00 [Information] Request starting HTTP/1.1 GET https://localhost:5002/favicon-16x16.png  
+2019-07-23 21:39:45.260 -05:00 [Information] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"'
+2019-07-23 21:39:45.267 -05:00 [Information] Request finished in 53.0754ms 200 image/png
+2019-07-23 21:39:45.537 -05:00 [Information] Request finished in 631.4256ms 200 application/json;charset=utf-8
+2019-07-23 21:41:03.124 -05:00 [Information] Request starting HTTP/1.1 POST https://localhost:5002/api/Security application/json-patch+json 46
+2019-07-23 21:41:03.201 -05:00 [Information] Executing endpoint '"Library.Backend.API.Controllers.SecurityController.Post (Library.Backend.API)"'
+2019-07-23 21:41:03.270 -05:00 [Information] Route matched with "{action = \"Post\", controller = \"Security\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Post(Library.Backend.Entities.Request.SecurityRequest)" on controller "Library.Backend.API.Controllers.SecurityController" ("Library.Backend.API").
+2019-07-23 21:41:03.363 -05:00 [Information] Executing action method "Library.Backend.API.Controllers.SecurityController.Post (Library.Backend.API)" - Validation state: Valid
+2019-07-23 21:41:03.393 -05:00 [Information] Executed action method "Library.Backend.API.Controllers.SecurityController.Post (Library.Backend.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 21.294ms.
+2019-07-23 21:41:03.408 -05:00 [Information] Executing ObjectResult, writing value of type '"Library.Backend.Entities.Refetentials.Response`1[[Library.Backend.Entities.Response.SecurityResponse, Library.Backend.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-07-23 21:41:03.426 -05:00 [Information] Executed action "Library.Backend.API.Controllers.SecurityController.Post (Library.Backend.API)" in 146.1079ms
+2019-07-23 21:41:03.430 -05:00 [Information] Executed endpoint '"Library.Backend.API.Controllers.SecurityController.Post (Library.Backend.API)"'
+2019-07-23 21:41:03.434 -05:00 [Information] Request finished in 310.9232ms 200 application/json; charset=utf-8
+2019-07-23 21:46:42.634 -05:00 [Information] Request starting HTTP/1.1 GET https://localhost:5002/index.html  
+2019-07-23 21:46:43.112 -05:00 [Information] Request finished in 468.4158ms 200 text/html
+2019-07-23 21:46:43.381 -05:00 [Information] Request starting HTTP/1.1 GET https://localhost:5002/swagger/v1/swagger.json  
+2019-07-23 21:46:43.657 -05:00 [Information] Request finished in 283.2179ms 200 application/json;charset=utf-8
+2019-07-23 21:46:55.612 -05:00 [Information] Request starting HTTP/1.1 POST https://localhost:5002/api/Security application/json-patch+json 46
+2019-07-23 21:46:55.698 -05:00 [Information] Executing endpoint '"Library.Backend.API.Controllers.SecurityController.Post (Library.Backend.API)"'
+2019-07-23 21:46:55.760 -05:00 [Information] Route matched with "{action = \"Post\", controller = \"Security\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Post(Library.Backend.Entities.Request.SecurityRequest)" on controller "Library.Backend.API.Controllers.SecurityController" ("Library.Backend.API").
+2019-07-23 21:46:55.840 -05:00 [Information] Executing action method "Library.Backend.API.Controllers.SecurityController.Post (Library.Backend.API)" - Validation state: Valid
+2019-07-23 21:46:55.873 -05:00 [Information] Executed action method "Library.Backend.API.Controllers.SecurityController.Post (Library.Backend.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 24.0669ms.
+2019-07-23 21:46:55.888 -05:00 [Information] Executing ObjectResult, writing value of type '"Library.Backend.Entities.Refetentials.Response`1[[Library.Backend.Entities.Response.SecurityResponse, Library.Backend.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-07-23 21:46:55.910 -05:00 [Information] Executed action "Library.Backend.API.Controllers.SecurityController.Post (Library.Backend.API)" in 139.507ms
+2019-07-23 21:46:55.915 -05:00 [Information] Executed endpoint '"Library.Backend.API.Controllers.SecurityController.Post (Library.Backend.API)"'
+2019-07-23 21:46:55.921 -05:00 [Information] Request finished in 317.1071ms 200 application/json; charset=utf-8
+2019-07-23 21:47:14.469 -05:00 [Information] Request starting HTTP/1.1 POST https://localhost:5002/api/Security/ResfreshToken?token=asdfasdf  0
+2019-07-23 21:47:14.493 -05:00 [Information] Executing endpoint '"Library.Backend.API.Controllers.SecurityController.ResfreshToken (Library.Backend.API)"'
+2019-07-23 21:47:14.501 -05:00 [Information] Route matched with "{action = \"ResfreshToken\", controller = \"Security\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ResfreshToken(System.String)" on controller "Library.Backend.API.Controllers.SecurityController" ("Library.Backend.API").
+2019-07-23 21:47:14.523 -05:00 [Information] Executing action method "Library.Backend.API.Controllers.SecurityController.ResfreshToken (Library.Backend.API)" - Validation state: Valid
+2019-07-23 21:47:18.410 -05:00 [Information] grincon Exception Method RefreshToken
+2019-07-23 21:48:20.531 -05:00 [Information] Executed action method "Library.Backend.API.Controllers.SecurityController.ResfreshToken (Library.Backend.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 65996.2456ms.
+2019-07-23 21:48:20.540 -05:00 [Information] Executing ObjectResult, writing value of type '"Library.Backend.Entities.Refetentials.Response`1[[Library.Backend.Entities.Response.SecurityResponse, Library.Backend.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-07-23 21:48:20.551 -05:00 [Information] Executed action "Library.Backend.API.Controllers.SecurityController.ResfreshToken (Library.Backend.API)" in 66037.1362ms
+2019-07-23 21:48:20.561 -05:00 [Information] Executed endpoint '"Library.Backend.API.Controllers.SecurityController.ResfreshToken (Library.Backend.API)"'
+2019-07-23 21:48:20.566 -05:00 [Information] Request finished in 66104.446ms 200 application/json; charset=utf-8
+2019-07-23 21:49:23.504 -05:00 [Information] Request starting HTTP/1.1 POST https://localhost:5002/api/Security/ResfreshToken?token=asdfasdf  0
+2019-07-23 21:49:23.508 -05:00 [Information] Executing endpoint '"Library.Backend.API.Controllers.SecurityController.ResfreshToken (Library.Backend.API)"'
+2019-07-23 21:49:23.515 -05:00 [Information] Route matched with "{action = \"ResfreshToken\", controller = \"Security\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ResfreshToken(System.String)" on controller "Library.Backend.API.Controllers.SecurityController" ("Library.Backend.API").
+2019-07-23 21:49:23.520 -05:00 [Information] Executing action method "Library.Backend.API.Controllers.SecurityController.ResfreshToken (Library.Backend.API)" - Validation state: Valid
+2019-07-23 21:49:25.805 -05:00 [Information] grincon Exception Method RefreshToken
+2019-07-23 21:49:25.824 -05:00 [Information] Executed action method "Library.Backend.API.Controllers.SecurityController.ResfreshToken (Library.Backend.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 2285.7097ms.
+2019-07-23 21:49:25.847 -05:00 [Information] Executing ObjectResult, writing value of type '"Library.Backend.Entities.Refetentials.Response`1[[Library.Backend.Entities.Response.SecurityResponse, Library.Backend.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2019-07-23 21:49:25.862 -05:00 [Information] Executed action "Library.Backend.API.Controllers.SecurityController.ResfreshToken (Library.Backend.API)" in 2332.5332ms
+2019-07-23 21:49:25.878 -05:00 [Information] Executed endpoint '"Library.Backend.API.Controllers.SecurityController.ResfreshToken (Library.Backend.API)"'
+2019-07-23 21:49:25.898 -05:00 [Information] Request finished in 2380.708ms 200 application/json; charset=utf-8

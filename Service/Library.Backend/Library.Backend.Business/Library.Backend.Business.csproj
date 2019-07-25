@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library.Backend.Contracts\Library.Backend.Contracts.csproj" />
+    <ProjectReference Include="..\Library.Backend.Entities\Library.Backend.Entities.csproj" />
+    <ProjectReference Include="..\Library.Backend.Utils\Library.Backend.Utils.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Base\" />
+  </ItemGroup>
+</Project>
